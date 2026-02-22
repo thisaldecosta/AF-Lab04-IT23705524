@@ -11,3 +11,5 @@ myPromise.then((result) => {
 }).catch((error) => { 
   console.log(error); 
 }); 
+const myModule = require('./my-module.js'); 
+console.log(myModule.myFunction()); 
